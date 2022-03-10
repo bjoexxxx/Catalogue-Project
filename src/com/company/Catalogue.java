@@ -28,7 +28,7 @@ public class Catalogue {
   }
   public void borrowItem(){
     Item item = new Item("name","catagory");
-    item.getAvailable = false;
+    item.setAvailable(false);
   }
   public void returnItem(){
 
